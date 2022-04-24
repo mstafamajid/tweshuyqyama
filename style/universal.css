@@ -1,0 +1,21 @@
+body{
+    font-family: rabar_42;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+}
+.img-circle{
+
+     height: 50vh;
+     margin-top: 20vh;
+  
+}
+@font-face {
+    font-family: rabar_42;
+    src: url(../Assets/fonts/Rabar_042.ttf);
+    direction: rtl;
+}
+html{
+    scroll-behavior: smooth;
+}

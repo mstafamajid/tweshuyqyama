@@ -1,0 +1,49 @@
+
+
+
+body {
+   box-sizing: border-box;
+   margin: 0px;
+   padding: 0px;
+   place-items: center;
+   place-content: center;
+ 
+   
+}
+.landing{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(180deg, rgba(232,179,45,1) 10%, rgba(42, 47, 69, 0.97) 100%);
+     z-index: 11;
+    
+
+  }
+ #image{
+    height: 55vh;
+    width: 27vw;
+    margin-left: calc((100vw - 27vw)/2);
+    margin-top: calc((100vh - 80vh)/2);
+
+   
+  }
+  #landing-button{
+      font-family: rabar_42;
+    color: white;
+    width: 27vw;
+      height: 6vh;
+      margin-left: calc((100vw - 27vw)/2);
+      margin-top: 1vh;
+      background-color:#2a2f45;
+   border-radius: 10px;
+   border: 1px solid #E8B42D ;
+   transition:.3s ;
+}
+#landing-button:hover{
+    
+    box-shadow: 0px 0px 10px 0px #e8b32d7f;
+    
+      color:#000000;
+      font-weight: bold;
+      background-color:#E8B42D;
+  }
+  
